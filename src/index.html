@@ -13,5 +13,74 @@
   <body>
     <h1>HTML Form</h1>
     <script type="text/javascript" src="./main.js"></script>
+    <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="post">
+      <fieldset>
+        <legend>Personal information</legend>
+
+        <label for="surname">Surname:</label>
+        <input
+          type="text"
+          id="surname"
+          name="personInformation"
+          autocomplete="off"
+        >
+        <br>
+
+        <label for="name">Name:</label>
+        <input
+          type="text" 
+          id="name"
+          name="personInformation"
+          autocomplete="off"
+        >
+        <br>
+
+        <label for="age">How old are You?</label>
+        <input
+          type="number"
+          min="1"
+          max="100"
+          value="12"
+          id="age"
+          name="personInformation"
+        >
+        <br>
+
+        <label for="dateOfBirth">Full date of birth:</label>
+        <input
+          type="date"
+          id="dateOfBirth"
+          name="personInformation"
+        >
+        <br>
+
+        <label for="accept">I accept the term of the agreement</label>
+        <input
+          type="checkbox"
+          id="accept"
+          name="personInformation"
+        >
+      </fieldset>
+
+      <fieldset>
+        <legend>Registration</legend>
+
+        <label for="email">E-mail:</label>
+        <input
+          type="email"
+          id="email"
+          name="registrationInfo"
+        >
+        <br>
+
+        <label for="password">Password:</label>
+        <input
+          type="password"
+          id="password"
+          name="registrationInfo"
+        >
+        <br>
+      </fieldset>
+    </form>
   </body>
 </html>
