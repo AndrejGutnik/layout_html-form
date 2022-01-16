@@ -3,6 +3,6 @@ fieldset {
   margin-bottom: 20px;
 }
 
-fieldset > div {
+fieldset > div:not(:last-child) {
   margin-bottom: 10px;
 }

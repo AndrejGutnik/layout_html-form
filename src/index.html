@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <h1>HTML Form</h1>
     <script type="text/javascript" src="./main.js"></script>
     <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="post">
       <fieldset>
@@ -101,7 +100,7 @@
         <legend>An interesting fact about you!</legend>
 
         <div>
-          <label for="loveCatsYes loveCatsNo">Do You love cats?</label>
+          <label for="loveCatsYes loveCatsNo">Do you love cats?</label>
           <input
           type="radio"
           id="loveCatsYes"
@@ -117,7 +116,7 @@
         </div>
 
         <div>
-          <label for="favoriteColor">What is your favorit color?</label>
+          <label for="favoriteColor">What is your favorite color?</label>
           <input
           type="color"
           id="favoriteColor"
@@ -135,7 +134,7 @@
         </div>
 
         <div>
-          <label for="userFavoriteCar">What are you favorite brand of cars</label>
+          <label for="userFavoriteCar">What are your favorite brand of cars</label>
           <select id="userFavoriteCar" size="4" multiple>
             <option value="1">BMW</option>
             <option value="2">Audi</option>
@@ -148,6 +147,7 @@
           <label for="userRate">How do you rate our work?</label>
           <input
           type="range"
+          value="0"
           id="userRate"
           name="userRateForOurWork"
           >
@@ -163,15 +163,15 @@
           name="comment"
           id="userComments"
           cols="30"
-          rows="3"
+          rows="2"
           >
           </textarea>
         </div>
         <div>
-          <label for="userRecommend">Whoud you recommend us?</label>
+          <label for="userRecommend">Would you recommend us?</label>
           <select id="userRecommend">
-            <option value="1">Yes</option>
-            <option value="2">No</option>
+            <option value="1">yes</option>
+            <option value="2">no</option>
           </select>
         </div>
       </fieldset>
