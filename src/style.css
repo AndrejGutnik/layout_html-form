@@ -1,8 +1,7 @@
-
-fieldset {
+.formBlock {
   margin-bottom: 20px;
 }
 
-fieldset > div:not(:last-child) {
+.formBlock > .formQuestion:not(:last-child) {
   margin-bottom: 10px;
 }
